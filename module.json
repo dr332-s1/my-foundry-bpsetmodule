@@ -1,0 +1,90 @@
+{
+  "id": "bloodpunk-a-guide-to-tolia",
+  "title": "Bloodpunk A Guide to Tolia",
+  "version": "1.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.350"
+  },
+  "flags": {
+    "canUpload": true,
+    "dnd5e": {
+      "sourceBooks": {
+        "Bloodpunk A Guide to Tolia": "BP-AGT"
+      }
+    }
+  },
+  "packs": [
+    {
+      "name": "a-guide-to-tolia-items",
+      "label": "A Guide to Tolia Items",
+      "path": "packs/a-guide-to-tolia-items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "a-guide-to-tolia-journal-entries",
+      "label": "A Guide to Tolia Journal Entries",
+      "path": "packs/a-guide-to-tolia-journal-entries",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "a-guide-to-tolia-rollable-tables",
+      "label": "A Guide to Tolia Rollable Tables",
+      "path": "packs/a-guide-to-tolia-rollable-tables",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "a-guide-to-tolia-scenes",
+      "label": "A Guide to Tolia Scenes",
+      "path": "packs/a-guide-to-tolia-scenes",
+      "type": "Scene",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "a-guide-to-tolia-actors",
+      "label": "A Guide to Tolia Actors",
+      "path": "packs/a-guide-to-tolia-actors",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Dream Realm Storytellers",
+      "flags": {}
+    }
+  ],
+  "description": "<p>Blood... the fuel of technology, a catalyst for magic, and the ichor that sustains. It flows endlessly through the region of Tolia. A monument of oppression, the city of vampire rule and mortal suffering, Kanrath holds the reins of this precious resource. On the other hand, the grand city of magic and arcane-based technology, the proof of sorcerer supremacy, Cyherested tips the scales. Choose where you stand, knowing there is no righteous side and no virtue greater than power.<br /><br /><em>**Tokens made by using </em><a href=\"https://foundryvtt.com/packages/vtta-tokenizer/\"><em>Tokenizer</em></a></p>"
+}

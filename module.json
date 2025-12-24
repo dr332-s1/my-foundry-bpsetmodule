@@ -1,6 +1,8 @@
 {
   "id": "bloodpunk-a-guide-to-tolia",
   "title": "Bloodpunk A Guide to Tolia",
+  "manifest": "https://r2.foundryvtt.com/packages-public/bloodpunk-a-guide-to-tolia/module.json",
+  "protected": true
   "version": "1.1.0",
   "compatibility": {
     "minimum": "13",
